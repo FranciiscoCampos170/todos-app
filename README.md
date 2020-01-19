@@ -1,2 +1,2 @@
 # todos-app
-TODO application for my 100daysofcode challenge using laravel framework / php
+Build a tasks manager application for my 100daysofcode challenge using laravel framework / php
