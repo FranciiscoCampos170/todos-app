@@ -17,6 +17,7 @@
                         <a href="/todos/{{$todo->id}}" class="btn btn-primary btn-sm float-right" role="button">
                             View
                         </a>
+                        <span>Created at:</span>
                     </li>
                     @endforeach
                 </ul>
