@@ -17,7 +17,8 @@
                         <a href="/todos/{{$todo->id}}" class="btn btn-primary btn-sm float-right" role="button">
                             View
                         </a>
-                        <span>Created at:</span>
+                        <br>
+                    <span class="float-left">Created at: {{$todo->created_at->diffForHumans()}}</span>
                     </li>
                     @endforeach
                 </ul>
