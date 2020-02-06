@@ -9,7 +9,7 @@
         </button>
       </div>
       <div class="modal-body">
-            <h5>Do you want to complete this todo?</h5>
+            <h5>Do you want to complete this todo ?</h5>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">NO</button>
