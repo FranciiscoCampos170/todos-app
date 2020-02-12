@@ -41,11 +41,9 @@ class TodosController extends Controller
         $this->validate($request, [
             'name' => 'required|min:5'
         ]);
-
         $todo = Todo::FindOrFail($todoId);
         $todo->name = $request->name;
         $todo->description = $request->description;
-
         $todo->update();
 
         return redirect()->route('todos.index')->with('info', 'Task updated');
