@@ -34,6 +34,7 @@ class TodosController extends Controller
     }
     public function edit($todoId)
     {   $todo = Todo::whereId($todoId)->first();
+
         return view('todos.edit')->with('todo', $todo);
     }
     public function update(Request $request, $todoId)
